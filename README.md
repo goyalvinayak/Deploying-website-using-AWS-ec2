@@ -7,25 +7,18 @@ Inbound rules- (Allowing SSH access)
 No changes in outbound rules
 
 ## Launching an Instance
-Configurations-
-> Name: my-web-server
- 
-> Tag: aws-project
- 
-> OS Image: Ubuntu(Free tier)
-
-> Creating new key pair with .pem private key format.
-
-> Choosing Security Group that we made.
+### Configurations
+* Name: my-web-server
+* Tag: aws-project
+* OS Image: Ubuntu(Free tier)
+* Creating new key pair with .pem private key format.
+* Choosing Security Group that we made.
 
 Instance is created.
 ![1](https://github.com/user-attachments/assets/4b2884fb-e6f3-4ace-97ac-b0504b4a81bc)
 
 
 ## Connecting to the ec2 Instace
-Selecting SSH client
-
-Connecting by using command-
 ```
 ssh -i /d/Users/Vinayak/Downloads/my-web-server-aws.pem ubuntu@ec2-52-87-205-193.compute-1.amazonaws.com
 ```
